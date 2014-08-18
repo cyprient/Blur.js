@@ -288,6 +288,7 @@ define(['jquery'], function ($) {
 				}
 				tempImg.src = formattedSource;
 			}
+			return false; // stop the each loop
 		});
 	};
 	return $; // return jQuery
